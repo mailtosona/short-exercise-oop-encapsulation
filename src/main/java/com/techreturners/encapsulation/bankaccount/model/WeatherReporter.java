@@ -20,7 +20,8 @@ public class WeatherReporter {
     }
 
     public String check1() {
-        if (location == "London") {
+
+        if (location == "London")  {
 
             return "🌦";
 
@@ -37,7 +38,7 @@ public class WeatherReporter {
     }
 
     public String check2() {
-        if (temperature > 30) {
+        if (temperature > 30 ) {
 
             return "It's too hot 🥵!";
 
@@ -48,5 +49,4 @@ public class WeatherReporter {
         }
         return "Ahhh...it's just right 😊!";
     }
-
 }
